@@ -8,7 +8,6 @@ body {
     height: 8000px;
 }
 
-
 .mfw {
     position: absolute;
     left: 30px;
@@ -33,7 +32,6 @@ body {
 }
 
 .menu-link a {text-decoration: none;}
-
 
 .language {
     font-family: 'Jost', sans-serif;
@@ -67,8 +65,6 @@ body {
     font-family: 'Jost', sans-serif;
     font-weight: 600;
 }
-
-
 
 @keyframes pres-trsimg {
     0% {
