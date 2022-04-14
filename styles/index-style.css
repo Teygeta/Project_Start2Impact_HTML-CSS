@@ -84,13 +84,10 @@ body {
     height: 63.6px;
     left: 97px;
     top: 200px;
-
-    
-    transform: translatey(0px);
-    animation: pres-trsimg 4s ease-in-out infinite;
-    img { width: 100%; height: auto; }
-  }
-
+    animation: pres-trsimg 2s ease-in-out infinite;
+    img { width: 100%; height: auto;}
+    }
+ 
   
 
 
