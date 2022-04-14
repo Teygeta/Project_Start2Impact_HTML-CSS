@@ -4,7 +4,9 @@
     box-sizing: border-box;
 }
 
-
+body {
+    height: 8000px;
+}
 
 
 .mfw {
@@ -68,15 +70,32 @@
 
 
 
+@keyframes pres-trsimg {
+    0% {
+      transform: translatey(0px);
+    }
+    50% {
+      transform: translatey(-10px);
+    }
+    100% {
+      transform: translatey(0px);
+    }
+  }
+
 #pres-img {
     position: absolute;
     width: 57.11px;
     height: 63.6px;
     left: 97px;
     top: 200px;
+
+    
+    transform: translatey(0px);
+    animation: pres-trsimg 4s ease-in-out infinite;
+    img { width: 100%; height: auto; }
   }
 
-
+  
 
 
 
