@@ -28,22 +28,25 @@ body {
 }
 
 .menu-link div {
-    margin-inline: 30px;
+    margin-inline: 35px;
 }
 
 .menu-link a {
     text-decoration: none;
 }
 
-
-.contact-me {
-    background-color: #000;
-    width: 155px;
-    height: 37px;
+ .contact-me-button {
+    border: 0;
+    line-height: 2;
+    padding: 0 20px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    font-size: 23px;
     text-align: center;
-    border-radius: 22px;
+    color: #fff;
+    border-radius: 25px;
+    background-color: rgb(0, 0, 0);
 }
-
 
 .language {
     position: absolute;
@@ -56,17 +59,18 @@ body {
 
 /* cambiare pseudoclass color in seguito al cambiamento del background */
 .menu-link a:link {color: rgb(129, 129, 129);}
-.menu-link a:visited {color: rgb(0, 0, 0);}
+.menu-link a:visited {color: rgb(95, 95, 95);}
 .menu-link a:hover {color: #ff4646;}
-.menu-link a:active {color: rgb(0, 0, 0);}
-/* .contact-me:hover {color: #4b4b4b;} da impostare bene, il rettangolo non e' un link quindi non varia nel passaggio del mouse */
+.menu-link a:active {color: rgb(90, 90, 90);}
+
+
 .pres {
     position: relative;
     width: 330px;
     top: 200px;
-    left: 232px ;
-
+    left: 232px;
 }
+
 
 .pres p {
     font-size: 26px;    
