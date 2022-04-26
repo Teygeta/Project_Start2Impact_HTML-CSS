@@ -9,7 +9,7 @@
     }
 
     .header {
-        background-color: #757575;
+        background-color: #e9e9e9;
         width: 100%;
         position: fixed;
         margin: 0;
@@ -22,20 +22,20 @@
         padding: 0;
         list-style: none;
         overflow: hidden;
-        background-color: #757575;
+        background-color: #e9e9e9;
     }
     
     .header ul a {
         width: 100%;
         display: block;
-        padding: 20px;
+        padding: 19px;
         text-decoration: none;
         color:black ;
         font-family: 'Jost', sans-serif;
         font-weight: 400;
 
     }
-    
+
       .header ul a:hover {
         background-color: #9e9e9e;
     }
@@ -43,7 +43,7 @@
     .mfw {
         float: left;
         font-size: 20px;
-        padding:  20px;
+        padding:  14.5px;
         font-family: 'Jost', sans-serif;
         font-weight: 700;
     }
