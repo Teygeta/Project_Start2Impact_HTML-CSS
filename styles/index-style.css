@@ -33,8 +33,6 @@
         padding: 19px;
         text-decoration: none;
         color:black ;
-        
-
     }
 
     .header ul a:hover {
@@ -45,7 +43,6 @@
         float: left;
         font-size: 20px;
         padding:  14.5px;
-        font-family: 'Jost', sans-serif;
         font-weight: 700;
     }
 
@@ -133,107 +130,118 @@
         padding: 0;
         box-sizing: border-box;
         font-family: 'Jost', sans-serif;
-            font-weight: 400;
+        color: white;
     }
-    
+
+    body {
+        background-color: black;
+    }
+
     .menu-btn {
         display: none;
     }
-    
+
     .mfw {
         position: absolute;
         left: 30px;
         top: 16px;
-        font-family: 'Jost', sans-serif;
         font-weight: 700;
         font-size: 34px;
+
     }
-    
+
     .menu {
-        padding: 10px;
+        padding: 20px;
+        left: -45px;
+        position: relative;
         display: flex;
         justify-content: flex-end;
         align-items: center;
     }
 
-    header ul {
-        font-family: 'Jost', sans-serif;
-        font-weight: 400;
+    .menu li {
+        margin: 0 15px;
+        list-style-type: none;
         font-size: 23px;
     }
-    
-    header li {
-        list-style-type: none;  
-    }
 
-    header ul a {
+    .menu li a {
         text-decoration: none;
-        color: rgb(128, 128, 128);
         padding: 0 40px;
     }
 
-    header ul button {
-        width: 155px;
-        height: 41px;
-        color: white;
-        font-family: 'Jost', sans-serif;
-        font-weight: 400;
-        font-size: 23px;
-        border-radius: 25px;
-        background-color: rgb(0, 0, 0);
-        
+    .menu li a:hover {
+        color: #CFA55B;
+        transition: 0.4s;
+    }
+
+    #contact-me-btn {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 4px 25px;
+        color: black;
+        background: #CFA55B;
+        box-shadow: inset -3px -3px 8px rgba(0, 0, 0, 0.37);
+        border-radius: 146px;
+    }
+
+    #contact-me-btn:hover {
+        background: #f2c068
+    }
+
+    .section-1 {
+        position: relative;
+        width: 322px;
+        left: 23%;
+        top: 358px;
     }
     
-   .contact-me:hover {
-        background-color: rgb(65, 65, 65);
-   }
-   
-   .section-1 {
-    position: relative;
-    width: 322px;
-    height: 268.6px;
-    left: 291px;
-    top: 201px;
-  }
-    
 
-   .section-1 p {
-    font-family: 'Jost';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 26px;
-    line-height: 38px;
-   }
+    .section-1 p {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 38px;
+    }
 
-   .section-1 h1 {
-    font-family: 'Jost';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 60px;
-    line-height: 87px;
-   }
+    .section-1 h1 {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 60px;
+        line-height: 87px;
+    }
 
-   .section-1 img {
-       position: absolute;
-
-       width: 57.11px;
-       height: 63.6px;
-   }
+    .section-1 img {
+        position: absolute;
+        width: 57.11px;
+        height: 63.6px;
+        top: 293px;
+        left: 113px;
+        animation: pres-trsimg 2s ease-in-out infinite;
+    }
 
     @keyframes pres-trsimg {
         0% {
-          transform: translatey(0px);
+            transform: translatey(0px);
         }
         50% {
-          transform: translatey(-15px);
+            transform: translatey(-15px);
         }
         100% {
-          transform: translatey(0px);
+            transform: translatey(0px);
         }
-      }
-    
-    #section-1-img {
-        animation: pres-trsimg 2s ease-in-out infinite;
         }
-}
 
+        .training {
+            position: absolute;
+            top: 983px;
+        }
+
+        .training h1 {
+            position: relative;
+            left: 61px;
+        }
+
+    }
