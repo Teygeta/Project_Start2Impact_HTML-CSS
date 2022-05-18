@@ -1,5 +1,5 @@
 /* MOBILE  */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 428px) {
   * {
     margin: 0;
     padding: 0;
@@ -90,7 +90,7 @@
 }
 
 /* TABLET */
-@media screen and (min-width: 481px) and (max-width: 768px) {
+@media screen and (min-width: 429px) and (max-width: 960px) {
   * {
     margin: 0;
     padding: 0;
@@ -101,7 +101,7 @@
 }
 
 /* DESKTOP */
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 961px) {
   * {
     margin: 0;
     padding: 0;
@@ -224,10 +224,17 @@
   .timeline__component {
     margin: -10px 30px 200px 60px;
   }
+
+  .timeline__component1 {
+    margin: -10px 30px 200px 60px;
+    width: 350px;
+  }
+
   .timeline__component--bottom {
     margin-bottom: 50px;
   }
   .timeline__date {
+    width: 151px;
     text-align: right;
     font-weight: 50;
     margin-right: 30px;
@@ -259,13 +266,13 @@
     border-radius: 20px;
   }
   .timeline__point--bottom1 {
-    top: 195px;
+    top: 145px;
   }
   .timeline__point--bottom2 {
-    top: 225px;
+    top: 185px;
   }
   .timeline__point--bottom3 {
-    top: 255px;
+    top: 225px;
   }
   /* SKILLS */
   .skills {
@@ -293,22 +300,70 @@
     margin: 18px 118px;
     text-align: center;
   }
+
+
+  /* CONTACT ME */
+  .contact-me {
+    margin-top: 200px;
+  }
+  .contact-me h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 115px;
+    color: #000000;
+    background: rgb(207, 165, 91);
+    box-shadow: inset 0px 0px 20px 8px rgba(0, 0, 0, 0.31);
+  }
+  .contact-me p {
+    margin: 80px 0 auto;
+    text-align: center;
+    padding: 0 8%;
+  }
+  .button {
+    width: 100%;
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-around;   
+  }
+  .button button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 7px 38px;
+    border: none;
+    background: #CFA55B;
+    box-shadow: inset 6px 6px 9px rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+  }
+  .button button:first-of-type {
+    margin-left: 300px;
+  }
+  .button button:last-of-type {
+    margin-right: 300px;
+  }
+  .button a {
+    text-decoration: none;
+  }
+  .social-icon {
+    width: 436px;
+    margin: 0 auto;
+    margin-top: 90px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+  }
+  .social-icon a:hover {
+    color: #CFA55B;
+    transition: 0.4s;
+  }
+
+
 }
 
-/* CONTACT ME */
-.contact-me {
-  margin-top: 200px;
-  background: rgba(207, 165, 91, 0.39);
-  box-shadow: inset 0px 0px 20px 8px rgba(0, 0, 0, 0.31);
 
-}
-.contact-me h1 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 115px;
-}
 
 
 
