@@ -11,6 +11,10 @@
     body {
       background-color: #0B0312;
     }
+
+    h1 {
+      font-size: 22px;
+    }
     .header {
       background: #CFA55B;
       margin: 0;
@@ -137,15 +141,83 @@
   .training {
     margin-top: 150px;
   }
+  .training h1 {
+    margin-bottom: 20px;
+  }
 
-  
+  .training #gdi {
+    margin-top: 50px;
+  }
 
+  /* --------timeline-------- */
+  .training-timeline {
+    margin: 30px 0 0 20%;
+    transform: translateX(-50%);
+    max-width: 323px;
+    padding: 25px;
+    display: grid;
+    grid-template-columns: 1fr 3px 1fr;
+  }
+  .timeline__component-left {
+    margin: -2px 0 90px 8%;;
+  }
 
+  .timeline__component-right {
+    margin: -10px 10px 20px 60px;
+    width: 350px;
+  }
 
+  .timeline__component--bottom {
+    margin-bottom: 50px;
+  }
+  .timeline__date {
+    width: 151px;
+    text-align: right;
+    font-weight: 50;
+    margin-right: 30px;
+  }
+  .timeline__middle {
+    position: relative;
+    background-color: #CFA55B;
+  }
+  .timeline__point {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 15px;
+    height: 15px;
+    background: #CFA55B;
+    box-shadow: 0px 7px 9px #000000;
+    border-radius: 20px;
+  }
+  .timeline__point--bottom1,
+  .timeline__point--bottom2,
+  .timeline__point--bottom3 {
+    left: 50%;
+    transform: translateX(-50%);
+    width: 6px;
+    height: 6px;
+    background: #CFA55B;
+    box-shadow: 0px 7px 9px #000000;
+    border-radius: 20px;
+  }
+  .timeline__point--bottom1 {
+    top: 145px;
+  }
+  .timeline__point--bottom2 {
+    top: 185px;
+  }
+  .timeline__point--bottom3 {
+    top: 225px;
+  }
 
   /* skills */
   .skills-icon-group-dsk {
     display: none;
   }
+  
+
+
   
   
