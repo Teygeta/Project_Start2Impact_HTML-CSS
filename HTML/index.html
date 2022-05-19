@@ -9,17 +9,16 @@
     <link rel="stylesheet" href="/styles/style-tbl.css">   
     <link rel="stylesheet" href="/styles/style-dsk.css">
 
-    <link rel="favicon" href="">
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Gioda's personal website</title>
   </head>
   <body>  
-
-    <section class="homepage">
+    <a class="up-btn" href="#home"><img src="/up-btn.svg" alt="up-btn"></a>
+    <section id="home" class="homepage">
       <!-- <img class="bg-vector homepage" src="/images/BG/Vector 4.svg"alt=""> -->
     <header class="header">
       <a class="mfw">PERSONAL WEBSITE</a>
@@ -29,10 +28,10 @@
       </label>
         
         <ul class="menu">   
-            <li><a href="">Training</a></li>
-            <li><a href="">Skills</a></li>                        
-            <li><a href="">About</a></li>                      
-            <li><a id="contact-me-btn" href="">Contact me</a></li>          
+            <li><a href="#training">Training</a></li>
+            <li><a href="#skills">Skills</a></li>                        
+            <li><a href="#about">About</a></li>                      
+            <li><a id="contact-me-btn" href="#contact">Contact me</a></li>          
         </ul>
     </header>
 
@@ -45,7 +44,7 @@
   </div>
 
 <div class="page-padding">
-    <section class="training">
+    <section id="training" class="training">
       <h1>TRAINING</h1>
       <p>
         In this timeline, I would like to demonstrate how I have tended to maintain an interest in the world of information technology until now, which for so many years has always brought me great satisfaction and has never bored me      </p>
@@ -53,66 +52,66 @@
 
       <div class="training-timeline">
 
-        <div class="timeline__component-left">
+        <div class="timeline__component-left" data-aos="fade-right">
           <div class="timeline__date">September 2012 <br> July 2015</div>
         </div>
         <div class="timeline__middle">
           <div class="timeline__point"></div>
         </div>
-        <div class="timeline__component-right">
+        <div class="timeline__component-right" data-aos="fade-left">
             ECDL IT-Security - Specialised Level
         </div>
 
         
-        <div class="timeline__component-left">
+        <div class="timeline__component-left" data-aos="fade-right">
           <div class="timeline__date">September 2016 <br> July 2021</div>
         </div>
         <div class="timeline__middle">
           <div class="timeline__point"></div>
         </div>
-        <div class="timeline__component-right">
+        <div class="timeline__component-right" data-aos="fade-left">
             Technical Institute, ITIS Giulio Natta. 
             Technology, Technician of systems and managementof energy.
         </div>
         
 
-        <div class="timeline__component-left">
+        <div class="timeline__component-left" data-aos="fade-right">
           <div class="timeline__date">September 2021 <br> February 2022</div>
         </div>
         <div class="timeline__middle">
           <div class="timeline__point"></div>
         </div>
-        <div class="timeline__component-right">
+        <div class="timeline__component-right" data-aos="fade-left">
             Internship at Famar Group as: mechanical fitter
         </div>
 
 
-        <div class="timeline__component-left">
+        <div class="timeline__component-left" data-aos="fade-right">
           <div class="timeline__date">February 2022</div>
         </div>
         <div class="timeline__middle">
           <div class="timeline__point"></div>
         </div>
-        <div class="timeline__component-right">
+        <div class="timeline__component-right" data-aos="fade-left">
             Beginning of studies as "full stack developer" 
             at the training school "start2mpact".          
         </div>
 
 
-        <div class="timeline__component-left">
+        <div class="timeline__component-left" data-aos="fade-right">
           <div class="timeline__date">February 2022</div>
         </div>
         <div class="timeline__middle">
           <div class="timeline__point"></div>
         </div>
-        <div class="timeline__component-right">
+        <div class="timeline__component-right" data-aos="fade-left">
             Renewal of the contract to apprentice as: tooling 
             attendant and mechanical assembler of Famar 
             machine tools.
         </div>
 
 
-        <div class="timeline__component timeline__component--bottom ">
+        <div class="timeline__component-left timeline__component--bottom" data-aos="fade-right">
           <div class="timeline__date">March 2022</div>
         </div>
 
@@ -125,7 +124,7 @@
           </div>
         </div>
 
-        <div class="timeline__component timeline__component--bottom ">
+        <div class="timeline__component-right timeline__component--bottom" data-aos="fade-left">
             Completion of the first part of the course of study: HTML & CSS.
         </div>
 
@@ -135,7 +134,7 @@
     </section>
 
 
-    <section class="skills">
+    <section id="skills" class="skills">
       <h1>SKILLS</h1>
       <p>
         After taking the European Computer Driving Licence exam in 2015, I then spent my days discovering looking for new things about the 
@@ -145,7 +144,7 @@
       </p>
 
     
-    <div class="skills-icon-group-dsk"> 
+    <div class="skills-icon-group-dsk" data-aos="zoom-in"> 
       <img src="/images/skills-Icon-dsk.svg" alt="Icone delle competenze">
     </div>
     <div class="skills-icon-group-mbl"> 
@@ -154,7 +153,7 @@
 
     </section>
 
-    <section class="about">
+    <section id="about" class="about">
       <h1>ABOUT</h1>
       <p>My name is Vittorio Gioda, I live in Italy, in the province of Turin. I currently work as a mechanical fitter and study computer programming as a self-taught.
         I am passionate about engines and the whole world of computer science and my dream that I am realizing with impagno and sacrifices is to become an application developer. 
@@ -165,16 +164,15 @@
 
     <footer>
 
-    <section class="contact-me">
+    <section id="contact" class="contact-me">
       <h1>Contact me</h1>
-      <p>If you are interested in my profile please do not hesitate to contact me, I am willing to answer any curiosity, consider any 
-        job offer and collaborate on any interesting project.</p>
+      <p>If you are interested in my profile please do not hesitate to contact me, I am available to answer any curiosity, to consider any job offer and to collaborate on any interesting project.
+        <a href="/CV.pdf" download><b>Download my CV</b></a> and contact me by mail, phone or through socialnetworks.</p>
         
         <div class="button">
           <a id="mail-btn" href = "mailto: vitto.gioda@outlook.it">Email</a>
           <a id="phone-btn" href="tel:+39 3455733489">Phone</a>
         </div>
-      <p>or contact me through social</p>   
         <div class="social-icon">
           <a href="https://www.linkedin.com/in/vittorio-gioda/" target="_blank"><img src="/images/Social icon/LinkedIn.svg" alt="LinkedIn"></a>
           <a href="https://www.instagram.com/vitto.gi/" target="_blank"><img src="/images/Social icon/Instagram - Negative.svg" alt="Instagram"></a>
@@ -184,7 +182,11 @@
     </section>
 
     </footer>
-
+    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
 

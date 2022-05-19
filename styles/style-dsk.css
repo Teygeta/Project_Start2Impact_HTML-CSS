@@ -7,11 +7,17 @@
     color: white;
     font-size: 23px;
   }
+  
   body {
     background-color: #0B0312;
   }
   .page-padding {
     padding: 8%;
+  }
+  .up-btn {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
   }
   /* HOMEPAGE SECTION */
   .bg-vector {
@@ -21,6 +27,7 @@
     width: 100%;
     height: 922px;
   }
+
   .menu-btn {
     display: none;
   }
@@ -49,7 +56,7 @@
     padding: 0 40px;
   }
   .header .menu li a:hover {
-    color: #CFA55B;
+    color: #eec681;
     transition: 0.4s;
   }
   #contact-me-btn {
@@ -62,7 +69,7 @@
     border-radius: 146px;
   }
   #contact-me-btn:hover {
-    background: #f2c068;
+    background: #eec681;
   }
   .pres-section {
     position: relative;
@@ -102,6 +109,10 @@
     }
   }
   /* TRAINING SECTION */
+
+  .training {
+    scroll-behavior: smooth;
+  }
   .training h1 {
     margin-left: 99px;
     margin-right: 99px;
@@ -116,15 +127,16 @@
 
   /* --------timeline-------- */
   .training-timeline {
-    margin: 30px 0 0 50%;
+    margin: 100px 0 0 50%;
     transform: translateX(-50%);
-    max-width: 1250px;
+    max-width: 750px;
     padding: 25px;
     display: grid;
     grid-template-columns: 1fr 3px 1fr;
   }
   .timeline__component-left {
     margin: -10px 30px 200px 60px;
+    max-width: 200px;
   }
 
   .timeline__component-right {
@@ -133,7 +145,7 @@
   }
 
   .timeline__component--bottom {
-    margin-bottom: 50px;
+    margin: -10px 30px 50px 60px;
   }
   .timeline__date {
     width: 151px;
@@ -178,7 +190,7 @@
   }
   /* SKILLS */
   .skills {
-    margin-top: 200px;
+    margin-top: 400px;
   }
   .skills h1 {
     margin-left: 99px;
@@ -227,12 +239,22 @@
     text-align: center;
     padding: 0 8%;
   }
+  .contact-me b {color: #CFA55B;}
+  .contact-me p a {text-decoration: none;}
+  .contact-me b:hover {color:#eec681;}
+
   .button {
-    width: 100%;
+    width: 950px;
+    margin: 0 auto;
     margin-top: 90px;
     display: flex;
     justify-content: space-around;   
   }
+  
+  .button a {
+    text-decoration: none;
+  }
+
   #mail-btn,
   #phone-btn {
     display: flex;
@@ -245,19 +267,9 @@
     text-decoration: none;
   }
 
-  #mail-btn {
-    margin-left: 450px;
-  }
-  #phone-btn {
-    margin-right: 450px;
-  }
-  .button a {
-    text-decoration: none;
-  }
-
   #mail-btn:hover,
   #phone-btn:hover {
-    background: #f2c068;
+    background: #eec681;
     transition: 0.4s;
 
   }
