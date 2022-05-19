@@ -1,106 +1,3 @@
-/* MOBILE  */
-@media screen and (max-width: 428px) {
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Jost', sans-serif;
-    font-weight: 400;
-  }
-  .header {
-    background-color: #e9e9e9;
-    width: 100%;
-    position: fixed;
-    margin: 0;
-    padding: 0;
-    z-index: 1;
-  }
-  .header ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    overflow: hidden;
-    background-color: #e9e9e9;
-  }
-  .header ul a {
-    width: 100%;
-    display: block;
-    padding: 19px;
-    text-decoration: none;
-    color: black;
-  }
-  .header ul a:hover {
-    background-color: #9e9e9e;
-  }
-  .mfw {
-    float: left;
-    font-size: 20px;
-    padding: 14.5px;
-    font-weight: 700;
-  }
-  .header .menu {
-    clear: both;
-    max-height: 0;
-    transition: max-height .4s ease-out;
-  }
-  .header .menu-icon {
-    padding: 28px 20px;
-    position: relative;
-    float: right;
-    cursor: pointer;
-  }
-  .header .menu-icon .nav-icon {
-    background-color: black;
-    display: block;
-    width: 18px;
-    height: 2px;
-    position: relative;    transition: background-color 0.3s ease-out;
-  }
-  .header .menu-icon .nav-icon::before,
-  .header .menu-icon .nav-icon::after {
-    background-color: black;
-    content: "";
-    display: block;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    transition: all .3s ease-out;
-  }
-  .header .menu-icon .nav-icon::after {
-    top: 5px;
-  }
-  .header .menu-icon .nav-icon::before {
-    top: -5px;
-  }
-  .header .menu-btn {
-    display: none;
-  }
-  .header .menu-btn:checked ~ .menu {
-    max-height: 240px;
-  }
-  .header .menu-btn:checked ~ .menu-icon .nav-icon {
-    background-color: transparent;
-  }
-  .header .menu-btn:checked ~ .menu-icon .nav-icon::after {    transform: rotate(-45deg);
-    top: 0;
-  }
-  .header .menu-btn:checked ~ .menu-icon .nav-icon::before {    transform: rotate(45deg);
-    top: 0;
-  }
-}
-
-/* TABLET */
-@media screen and (min-width: 429px) and (max-width: 960px) {
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Jost', sans-serif;
-    font-weight: 400;
-  }
-}
-
-/* DESKTOP */
 @media screen and (min-width: 961px) {
   * {
     margin: 0;
@@ -122,7 +19,7 @@
   }
   .homepage {
     width: 100%;
-    height: 1295px;
+    height: 922px;
   }
   .menu-btn {
     display: none;
@@ -134,7 +31,7 @@
     font-weight: 700;
     font-size: 34px;
   }
-  .menu {
+  .header .menu {
     padding: 20px;
     left: -45px;
     position: relative;
@@ -142,16 +39,16 @@
     justify-content: flex-end;
     align-items: center;
   }
-  .menu li {
+  .header .menu li {
     margin: 0 15px;
     list-style-type: none;
     font-size: 23px;
   }
-  .menu li a {
+  .header .menu li a {
     text-decoration: none;
     padding: 0 40px;
   }
-  .menu li a:hover {
+  .header .menu li a:hover {
     color: #CFA55B;
     transition: 0.4s;
   }
@@ -171,7 +68,7 @@
     position: relative;
     width: 322px;
     left: 23%;
-    top: 358px;
+    top: 245px;
   }
   .pres-section p {
     font-style: normal;
@@ -284,11 +181,15 @@
   .skills p {
     margin: 18px 118px;
   }
-  .skills-icon-group {
+  .skills-icon-group-dsk {
     display: flex;
     justify-content: center;
     margin-top: 200px;
   }
+  .skills-icon-group-mbl{
+    display: none;
+  }
+  
  /* ABOUT */
   .about {
     margin-top: 200px;
@@ -297,14 +198,14 @@
     text-align: center;
   }
   .about p {
-    margin: 18px 118px;
+    margin: 50px 118px;
     text-align: center;
   }
 
 
   /* CONTACT ME */
   .contact-me {
-    margin-top: 200px;
+    margin-top: 30px;
   }
   .contact-me h1 {
     display: flex;
@@ -327,37 +228,41 @@
     display: flex;
     justify-content: space-around;   
   }
-  .button button {
+  #mail-btn,
+  #phone-btn {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
     align-items: center;
-    padding: 7px 38px;
-    border: none;
+    padding: 4px 25px;
+    color: black;
     background: #CFA55B;
-    box-shadow: inset 6px 6px 9px rgba(0, 0, 0, 0.4);
-    border-radius: 20px;
+    box-shadow: inset -3px -3px 8px rgba(0, 0, 0, 0.37);
+    border-radius: 146px;
+    text-decoration: none;
   }
-  .button button:first-of-type {
-    margin-left: 300px;
+
+  #mail-btn {
+    margin-left: 450px;
   }
-  .button button:last-of-type {
-    margin-right: 300px;
+  #phone-btn {
+    margin-right: 450px;
   }
   .button a {
     text-decoration: none;
   }
+
+  #mail-btn:hover,
+  #phone-btn:hover {
+    background: #f2c068;
+    transition: 0.4s;
+
+  }
   .social-icon {
     width: 436px;
     margin: 0 auto;
+    margin-bottom: 40px;
     margin-top: 90px;
-    border: 1px solid red;
     display: flex;
     justify-content: space-between;
-  }
-  .social-icon a:hover {
-    color: #CFA55B;
-    transition: 0.4s;
   }
 
 
@@ -370,4 +275,3 @@
 
 
 
-/*# sourceMappingURL=style.css.map */
