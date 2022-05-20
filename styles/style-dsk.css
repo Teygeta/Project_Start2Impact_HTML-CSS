@@ -16,8 +16,8 @@
   }
   .up-btn {
     position: fixed;
-    right: 20px;
-    bottom: 20px;
+    right: 3%;
+    bottom: 3%;
   }
   /* HOMEPAGE SECTION */
   .bg-vector {
@@ -71,14 +71,13 @@
   #contact-me-btn:hover {
     background: #eec681;
   }
-  
+
   .pres-section {
-    position: relative;
-    margin: 0;
+    margin: 240px 0 0 23%;
     width: 322px;
-    left: 23%;
-    top: 245px;
+    height: 350px;
   }
+
   .pres-section p {
     font-style: normal;
     font-weight: 400;
@@ -92,15 +91,11 @@
     line-height: 87px;
   }
   .pres-section img {
-    position: absolute;
     width: 57.11px;
     height: 63.6px;
-    top: 293px;
-    left: 113px;
+    margin: 15% 0 0 33%;
     animation: pres-trsimg 2s ease-in-out infinite;
   }
-
-
 
 
   @keyframes pres-trsimg {
@@ -114,29 +109,25 @@
       transform: translatey(0px);
     }
   }
+
+
   /* TRAINING SECTION */
 
-  .training {
-    scroll-behavior: smooth;
-  }
   .training h1 {
-    margin-left: 99px;
-    margin-right: 99px;
+    margin-left: 6%;
   }
   .training p {
-    margin: 18px 118px;
+    margin: 18px 8%;
   }
 
   .gdi {
-    line-height: 250px;
+    margin-top: 55px;
   }
 
   /* --------timeline-------- */
   .training-timeline {
     margin: 100px 0 0 50%;
     transform: translateX(-50%);
-    max-width: 750px;
-    padding: 25px;
     display: grid;
     grid-template-columns: 1fr 3px 1fr;
   }
@@ -194,15 +185,18 @@
   .timeline__point--bottom3 {
     top: 225px;
   }
+
+
+
   /* SKILLS */
   .skills {
     margin-top: 400px;
   }
   .skills h1 {
-    margin-left: 99px;
+    margin-left: 6%;
   }
   .skills p {
-    margin: 18px 118px;
+    margin: 18px 8%;
   }
   .skills-icon-group-dsk {
     display: flex;
@@ -213,6 +207,8 @@
     display: none;
   }
   
+
+  
  /* ABOUT */
   .about {
     margin-top: 200px;
@@ -221,7 +217,7 @@
     text-align: center;
   }
   .about p {
-    margin: 50px 118px;
+    margin: 50px 8%;
     text-align: center;
   }
 
@@ -259,9 +255,6 @@
    .social-icon a {
      margin: 90px 2% 2% 2%;
    }
-
-
-
 
 }
 
