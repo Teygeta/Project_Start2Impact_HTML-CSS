@@ -251,36 +251,6 @@
   .contact-me p a {text-decoration: none;}
   .contact-me b:hover {color:#eec681;}
 
-  .button {
-    width: 950px;
-    margin: 0 auto;
-    margin-top: 90px;
-    display: flex;
-    justify-content: space-around;   
-  }
-  
-  .button a {
-    text-decoration: none;
-  }
-
-  #mail-btn,
-  #phone-btn {
-    display: flex;
-    align-items: center;
-    padding: 4px 25px;
-    color: black;
-    background: #CFA55B;
-    box-shadow: inset -3px -3px 8px rgba(0, 0, 0, 0.37);
-    border-radius: 146px;
-    text-decoration: none;
-  }
-
-  #mail-btn:hover,
-  #phone-btn:hover {
-    background: #eec681;
-    transition: 0.4s;
-
-  }
   .social-icon {
     margin: 0 auto;
     display: flex;
