@@ -141,7 +141,7 @@
   /* TRAINING SECTION */
 
   .training {
-    margin-top: 800px;
+    margin-top: 400px;
   }
   .training h1 {
     margin-left: 6%;
@@ -155,25 +155,25 @@
 
   /* --------timeline-------- */
   .training-timeline {
-    margin: 100px 0 0 20%;
+    margin: 100px 40% 0 20%;
     transform: translateX(-50%);
     display: grid;
-    grid-template-columns: 1fr 3px 1fr;
+    grid-template-columns: 1fr 2px 1fr;
     max-width: 750px;
   }
   .timeline__component-left {
-    margin: -10px 0 200px 20%;
+    margin: -7px 20px 150px 0;
     max-width: 200px;
   }
 
   .timeline__component-right {
-    margin: -10px 30% 200px 60px;
-    width: 350px;
+    margin: -7px 0 150px 20px;
+    
   }
 
-  .timeline__component--bottom {
-    margin: -10px 30px 50px 60px;
-  }
+  /* .timeline__component--bottom {
+    margin: -7px 20px 100px 20px;
+  } */
 
   .timeline__date {
     width: 151px;
@@ -189,8 +189,8 @@
     top: 0;
     left: 50%;
     transform: translateX(-50%);
-    width: 15px;
-    height: 15px;
+    width: 10px;
+    height: 10px;
     background: #CFA55B;
     box-shadow: 0px 7px 9px #000000;
     border-radius: 20px;
@@ -200,20 +200,20 @@
   .timeline__point--bottom3 {
     left: 50%;
     transform: translateX(-50%);
-    width: 6px;
-    height: 6px;
+    width: 4px;
+    height: 4px;
     background: #CFA55B;
     box-shadow: 0px 7px 9px #000000;
     border-radius: 20px;
   }
   .timeline__point--bottom1 {
-    top: 145px;
+    top: 290px;
   }
   .timeline__point--bottom2 {
-    top: 185px;
+    top: 325px;
   }
   .timeline__point--bottom3 {
-    top: 225px;
+    top: 360px;
   }
 
 
@@ -228,12 +228,12 @@
   .skills p {
     margin: 18px 8%;
   }
-  .skills-icon-group-dsk {
+  .skills-icon-group-mbl {
     display: flex;
     justify-content: center;
-    margin-top: 200px;
+    margin-top: 90px;
   }
-  .skills-icon-group-mbl{
+  .skills-icon-group-dsk{
     display: none;
   }
   
@@ -241,7 +241,7 @@
   
  /* ABOUT */
   .about {
-    margin-top: 200px;
+    margin-top: 100px;
   }
   .about h1 {
     text-align: center;
@@ -277,13 +277,16 @@
 
   .social-icon {
     margin: 0 auto;
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto auto;
     justify-content: center;
     align-items: center;
-
+    margin-top: 40px;
   }
-   .social-icon a {
-     margin: 90px 2% 2% 2%;
+
+   .social-icon img {
+     width: 30px;
+     margin: 20px;
    }
 
 }

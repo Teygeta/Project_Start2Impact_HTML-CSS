@@ -1,4 +1,4 @@
-@media only screen and (min-width: 961px) {
+@media only screen and (min-width: 561px) {
   * {
     margin: 0;
     padding: 0;
@@ -222,7 +222,7 @@
     text-align: center;
   }
   .about p {
-    margin: 50px 8%;
+    margin: 18px 8%;
     text-align: center;
   }
 
