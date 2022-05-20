@@ -113,65 +113,72 @@
   }
 
   .pres-section {
-    position: relative;
-    margin: 0 auto;
+    margin: 240px 0 0 50%;
+    transform: translateX(-50%);
     top: 170px;
     width: 171px;
   }
 
-  .pres-section h1 {
-    font-size: 30px;
-    padding: 5px 0;
-  }
-
   .pres-section img {
-    position: absolute;
-    top: 120px;
-    left: 55px;
     width: 38px;
+    margin: 20px 33%;
     animation: pres-trsimg 2s ease-in-out infinite;
   }
 
+  @keyframes pres-trsimg {
+    0% {
+      transform: translatey(0px);
+    }
+    50% {
+      transform: translatey(-15px);
+    }
+    100% {
+      transform: translatey(0px);
+    }
+  }
+
+
   /* TRAINING SECTION */
 
+  .training {
+    margin-top: 800px;
+  }
   .training h1 {
     margin-left: 6%;
   }
   .training p {
     margin: 18px 8%;
   }
-
   .gdi {
     margin-top: 55px;
   }
 
   /* --------timeline-------- */
   .training-timeline {
-    margin: 100px 0 0 50%;
+    margin: 100px 0 0 20%;
     transform: translateX(-50%);
-    max-width: 750px;
-    padding: 25px;
     display: grid;
     grid-template-columns: 1fr 3px 1fr;
+    max-width: 750px;
   }
   .timeline__component-left {
-    margin: -10px 30px 200px 60px;
+    margin: -10px 0 200px 20%;
     max-width: 200px;
   }
 
   .timeline__component-right {
-    margin: -10px 30px 200px 60px;
+    margin: -10px 30% 200px 60px;
     width: 350px;
   }
 
   .timeline__component--bottom {
     margin: -10px 30px 50px 60px;
   }
+
   .timeline__date {
     width: 151px;
     text-align: right;
     font-weight: 50;
-    margin-right: 30px;
   }
   .timeline__middle {
     position: relative;

@@ -113,12 +113,16 @@
 
   /* TRAINING SECTION */
 
+  .training {
+    margin-top: 600px;
+  }
   .training h1 {
     margin-left: 6%;
   }
   .training p {
     margin: 18px 8%;
   }
+  
 
   .gdi {
     margin-top: 55px;
@@ -130,25 +134,26 @@
     transform: translateX(-50%);
     display: grid;
     grid-template-columns: 1fr 3px 1fr;
+    max-width: 750px;
   }
   .timeline__component-left {
-    margin: -10px 30px 200px 60px;
+    margin: -10px 0 200px 20%;
     max-width: 200px;
   }
 
   .timeline__component-right {
-    margin: -10px 30px 200px 60px;
+    margin: -10px 30% 200px 60px;
     width: 350px;
   }
 
   .timeline__component--bottom {
     margin: -10px 30px 50px 60px;
   }
+
   .timeline__date {
     width: 151px;
     text-align: right;
     font-weight: 50;
-    margin-right: 30px;
   }
   .timeline__middle {
     position: relative;
