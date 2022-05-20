@@ -71,8 +71,12 @@
   #contact-me-btn:hover {
     background: #eec681;
   }
+
+
+
   .pres-section {
     position: relative;
+    margin: 0;
     width: 322px;
     left: 23%;
     top: 245px;
@@ -97,6 +101,10 @@
     left: 113px;
     animation: pres-trsimg 2s ease-in-out infinite;
   }
+
+
+
+
   @keyframes pres-trsimg {
     0% {
       transform: translatey(0px);
@@ -274,13 +282,20 @@
 
   }
   .social-icon {
-    width: 436px;
     margin: 0 auto;
-    margin-bottom: 40px;
-    margin-top: 90px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+
   }
+   .social-icon a {
+     margin: 90px 2% 2% 2%;
+   }
+
+
 
 
 }
+
+
+
