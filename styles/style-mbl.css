@@ -159,22 +159,21 @@
 
   /* --------timeline-------- */
   .training-timeline {
-    margin: 100px 40% 0 20%;
-    transform: translateX(-50%);
+    width: 50%;
+    margin: 100px auto;
     display: grid;
     grid-template-columns: 1fr 2px 1fr;
   }
   .timeline__component-left {
     margin: -7px 20px 150px 0;
-    max-width: 200px;
   }
 
   .timeline__component-right {
     margin: -7px 0 150px 20px;
+    width: 100%;
   }
 
   .timeline__date {
-    width: 151px;
     text-align: right;
     font-weight: 50;
   }
