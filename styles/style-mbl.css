@@ -7,6 +7,7 @@
     font-size: 16px;
     color: white;
   }
+  
   body {
     background-color: #0B0312;
   }
@@ -205,13 +206,13 @@
     border-radius: 20px;
   }
   .timeline__point--bottom1 {
-    top: 220px;
+    top: 112%;
   }
   .timeline__point--bottom2 {
-    top: 255px;
+    top: 126%;
   }
   .timeline__point--bottom3 {
-    top: 290px;
+    top: 140%;
   }
 
 
@@ -289,6 +290,10 @@
 
 }
 
+
+
+
+  
 
 
 @media only screen and (min-width:650px) {
