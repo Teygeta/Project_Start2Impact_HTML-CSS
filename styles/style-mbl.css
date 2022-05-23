@@ -1,4 +1,4 @@
-@media only screen and (max-width:749px) {
+@media only screen and (max-width:1170px) {
   * {
     margin: 0;
     padding: 0;
@@ -159,7 +159,8 @@
 
   /* --------timeline-------- */
   .training-timeline {
-    width: 50%;
+    width: 75%;
+    max-width: 600px;
     margin: 100px auto;
     display: grid;
     grid-template-columns: 1fr 2px 1fr;
@@ -204,13 +205,13 @@
     border-radius: 20px;
   }
   .timeline__point--bottom1 {
-    top: 290px;
+    top: 220px;
   }
   .timeline__point--bottom2 {
-    top: 325px;
+    top: 255px;
   }
   .timeline__point--bottom3 {
-    top: 360px;
+    top: 290px;
   }
 
 
@@ -290,3 +291,32 @@
 
 
 
+@media only screen and (min-width:650px) {
+
+  .pres-section {
+    margin: 240px 0 0 30%;
+    transform: translateX(-50%);
+    top: 170px;
+    width: 171px;
+  }
+
+  .pres-section img {
+    width: 38px;
+    margin: 20px 33%;
+    animation: pres-trsimg 2s ease-in-out infinite;
+  }
+
+  @keyframes pres-trsimg {
+    0% {
+      transform: translatey(0px);
+    }
+    50% {
+      transform: translatey(-15px);
+    }
+    100% {
+      transform: translatey(0px);
+    }
+  }
+
+
+}
