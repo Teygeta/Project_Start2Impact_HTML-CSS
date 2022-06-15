@@ -7,6 +7,7 @@
     
     <link rel="stylesheet" href="styles/style-mbl.css"/>  
     <link rel="stylesheet" href="styles/style-dsk.css"/>
+ 
 
 
     <link rel="preconnect" href="https://fonts.googleapis.com"/>
@@ -32,13 +33,14 @@
             <li><a href="#skills">Skills</a></li>                        
             <li><a href="#about">About</a></li>                      
             <li><a id="contact-me-btn" href="#contact">Contact me</a></li>          
+            <li><button id="contact-me-btn2">Click</button></li>          
         </ul>
     </header>
 
     <div class="pres-section">
       <p>Hello</p>
       <h1>I'm Vittorio</h1> 
-      <p>Self-taught & specialized mechanical technician </p>
+      <p>start to impact student studying Full Stack Development</p>
       <img id=section-1-img src="images/bx-chevrons-down.svg" alt="">
     </div>
 
@@ -106,6 +108,16 @@
             machine tools.
         </div>
 
+        <div class="timeline__component-left" data-aos="fade-right">
+          <div class="timeline__date">February 2022<br>March 2022</div>
+        </div>
+        <div class="timeline__middle">
+          <div class="timeline__point"></div>
+        </div>
+        <div class="timeline__component-right" data-aos="fade-left">
+          Completion of the first part of the HTML & CSS course of study and implementation of the <a href="https://github.com/Teygeta/Project_Start2Impact">project</a>  (this website).
+        </div>
+
         <div class="timeline__component-left timeline__component--bottom" data-aos="fade-right">
           <div class="timeline__date">March 2022</div>
         </div>
@@ -120,7 +132,7 @@
         </div>
 
         <div class="timeline__component-right timeline__component--bottom" data-aos="fade-left">
-            Completion of the first part of the course of study: HTML & CSS.
+          Start studying javascript 
         </div>
 
       </div>
@@ -170,7 +182,21 @@
     <script>
       AOS.init();
     </script>
-    </div>
+
+
+<script>
+ 
+  const bottone = document.querySelector("#contact-me-btn2");
+
+  bottone.onclick = function (e) {
+    alert("Hai cliccato il bottone");
+  }
+
+
+</script>
+  
+
+</div>
   </body>
 </html>
 
