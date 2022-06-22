@@ -32,7 +32,6 @@
     padding: 0;
     list-style: none;
     overflow: hidden;
-    
   }
   .header ul a {
     width: 100%;
@@ -81,7 +80,8 @@
     display: block;
     width: 18px;
     height: 2px;
-    position: relative;    transition: background-color 0.3s ease-out;
+    position: relative;    
+    transition: background-color 0.3s ease-out;
   }
   .header .menu-icon .nav-icon::before,
   .header .menu-icon .nav-icon::after {
